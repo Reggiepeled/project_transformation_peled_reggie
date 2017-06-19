@@ -183,26 +183,11 @@ article .entry {
 }
 
 .links {
-    padding-top: 10%;
-}
-
-.more {
-    display: block;
-    float: left;
-    width: 88px;    /* this width stays the same for all screen sizes */
-    padding: 1%;
-    margin-right: 2%;
-    background: #222222;
-    color: #ffffff;
-    text-align: center;
-    text-decoration: none;
-}
-
-.comments {
+    margin: 5% 0 10% 2%;
     display: block;
     float: left;
     width: 88px;    /* this stays the same for all screen sizes */
-    padding: 1% 1.5%;
+    padding: 1%;
     background: #222222;
     color: #ffffff;
     text-align: center;
