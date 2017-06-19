@@ -76,7 +76,6 @@ header {
 
 /* Logo */
 #logo {
-    float: left;
     width: 300px;   /* this width stays the same for all screen sizes */
     margin: 0;
     padding: 0;
@@ -97,21 +96,15 @@ header {
 
 /* Menu */
 nav {
-    float: right;
     margin: 0 auto;
     padding: 0;
 }
 
 nav ul {
-    float: right;
     margin: 0;
     padding: 5% 0 0 0;
     list-style: none;
     line-height: normal;
-}
-
-nav li {
-    float: left;
 }
 
 nav a {
@@ -146,7 +139,6 @@ nav .current_page_item a {
 
 /* Content */
 main {
-    float: right;
     width: 100%;
     max-width: 660px;
     padding: 0;
@@ -219,7 +211,6 @@ article .entry {
 
 /* Sidebar */
 aside {
-    float: left;
     width: 100%;
     max-width: 270px;
     margin: 0;
