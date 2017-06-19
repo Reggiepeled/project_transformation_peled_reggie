@@ -52,7 +52,6 @@ a {
 
 header {
     width: 1000px;
-    height: 150px;
     margin: 0 auto;
     padding: 0;
 }
@@ -60,7 +59,6 @@ header {
 #banner {
     margin: 0 auto;
     width: 1000px;
-    height: 340px;
     background: url(../img/img03.png) no-repeat left bottom;
 }
 
@@ -89,7 +87,6 @@ header {
 nav {
     float: right;
     width: 500px;
-    height: 90px;
     margin: 0 auto;
     padding: 0;
 }
@@ -247,7 +244,6 @@ aside li li a {
 }
 
 aside h2 {
-    height: 38px;
     padding: 0 0 30px 0;
     letter-spacing: -0.5px;
     font-size: 1.8em;
@@ -256,7 +252,6 @@ aside h2 {
 
 /* Footer */
 footer {
-    height: 140px;
     margin: 0 auto;
     padding: 50px 0 15px 0;
     font-family: 'Abel', sans-serif;
