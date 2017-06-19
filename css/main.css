@@ -13,7 +13,7 @@ body {
     padding: 0;
     background: #050505 url(../img/img01.jpg) repeat;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 0.9rem;
     color: #5b5b5b;
 }
 
@@ -61,28 +61,30 @@ a {
 }
 
 header {
-    width: 1000px;
+    width: 100%;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0;
 }
 
 #banner {
-    margin: 0 auto;
-    width: 1000px;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
     background: url(../img/img03.png) no-repeat left bottom;
 }
 
 /* Logo */
 #logo {
     float: left;
-    width: 300px;
+    width: 300px;   /* this width stays the same for all screen sizes */
     margin: 0;
     padding: 0;
     color: #ffffff;
 }
 
 #logo h1 {
-    line-height: 120px;
+    line-height: 120px; /* this stays the same for all screen sizes */
     letter-spacing: -2px;
     font-size: 3.8em;
 }
@@ -96,7 +98,6 @@ header {
 /* Menu */
 nav {
     float: right;
-    width: 500px;
     margin: 0 auto;
     padding: 0;
 }
@@ -104,7 +105,7 @@ nav {
 nav ul {
     float: right;
     margin: 0;
-    padding: 20px 0 0 0;
+    padding: 5% 0 0 0;
     list-style: none;
     line-height: normal;
 }
@@ -116,14 +117,13 @@ nav li {
 nav a {
     display: block;
     line-height: 100px;
-    margin-right: 1px;
-    padding: 0 20px;
+    padding: 0 5%;
     text-decoration: none;
     text-align: center;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 300;
     color: #1f1f1f;
     border: none;
@@ -138,26 +138,27 @@ nav .current_page_item a {
 
 /* Page */
 #page {
-    width: 1000px;
+    width: 100%;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 30px 0;
+    padding: 5% 0;
 }
 
 /* Content */
 main {
     float: right;
-    width: 660px;
+    width: 100%;
+    max-width: 660px;
     padding: 0;
 }
 
 article {
     overflow: hidden;
-    margin-bottom: 40px;
+    margin-bottom: 5%;
     border-bottom: 1px solid #e7ebed;
 }
 
 article .title {
-    padding: 7px 0 0 0;
     letter-spacing: -1px;
 }
 
@@ -168,11 +169,11 @@ article .title a {
 }
 
 article .meta {
-    margin-bottom: 30px;
-    padding: 10px 0 0 0;
+    margin-bottom: 10%;
+    padding: 5% 0 0 0;
     text-align: left;
     font-family: 'Abel', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 300;
 }
 
@@ -185,21 +186,20 @@ article .meta .posted {
 }
 
 article .entry {
-    padding: 0 0 40px 0;
+    padding: 0 0 15% 0;
     text-align: justify;
 }
 
 .links {
-    padding-top: 20px;
-    margin-bottom: 30px;
+    padding-top: 10%;
 }
 
 .more {
     display: block;
     float: left;
-    width: 88px;
-    padding: 5px 5px;
-    margin-right: 10px;
+    width: 88px;    /* this width stays the same for all screen sizes */
+    padding: 1%;
+    margin-right: 2%;
     background: #222222;
     color: #ffffff;
     text-align: center;
@@ -209,8 +209,8 @@ article .entry {
 .comments {
     display: block;
     float: left;
-    width: 88px;
-    padding: 5px 5px;
+    width: 88px;    /* this stays the same for all screen sizes */
+    padding: 1% 1.5%;
     background: #222222;
     color: #ffffff;
     text-align: center;
@@ -220,9 +220,10 @@ article .entry {
 /* Sidebar */
 aside {
     float: left;
-    width: 270px;
+    width: 100%;
+    max-width: 270px;
     margin: 0;
-    padding: 30px 0 0 0;
+    padding: 10% 0 0 0;
 }
 
 aside ul {
@@ -238,23 +239,23 @@ aside li {
 
 aside li ul {
     margin: 0;
-    padding-bottom: 30px;
+    padding-bottom: 10%;
 }
 
 aside li li {
-    line-height: 40px;
+    line-height: 40px;  /* this stays the same for all screen sizes */
     border-bottom: 1px solid #e7ebed;
     margin: 0;
     border-left: none;
 }
 
 aside li li a {
-    padding: 0 0 0 20px;
+    padding: 0 0 0 7%;
     background: url(../img/img04.jpg) no-repeat left 50%;
 }
 
 aside h2 {
-    padding: 0 0 30px 0;
+    padding: 0 0 10% 0;
     letter-spacing: -0.5px;
     font-size: 1.8em;
     color: #222222;
@@ -263,16 +264,16 @@ aside h2 {
 /* Footer */
 footer {
     margin: 0 auto;
-    padding: 50px 0 15px 0;
+    padding: 20% 0 2% 0;
     font-family: 'Abel', sans-serif;
 }
 
 footer p {
     margin: 0;
-    padding-top: 10px;
+    padding-top: 2%;
     letter-spacing: 1px;
     line-height: normal;
-    font-size: 14px;
+    font-size: 0.9rem;
     text-transform: uppercase;
     text-align: center;
     color: #5e5e5e;
