@@ -202,39 +202,20 @@ aside {
     padding: 10% 0 0 0;
 }
 
-aside ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+aside section ul {
+    list-style-type: none;
 }
 
-aside li {
-    margin: 0;
-    padding: 0;
-}
-
-aside li ul {
-    margin: 0;
-    padding-bottom: 10%;
-}
-
-aside li li {
+aside section ul li {
     line-height: 40px;  /* this stays the same for all screen sizes */
     border-bottom: 1px solid #e7ebed;
     margin: 0;
     border-left: none;
 }
 
-aside li li a {
+aside section ul li a {
     padding: 0 0 0 7%;
     background: url(../img/img04.jpg) no-repeat left 50%;
-}
-
-aside h2 {
-    padding: 0 0 10% 0;
-    letter-spacing: -0.5px;
-    font-size: 1.8rem;
-    color: #222222;
 }
 
 /* Footer */
