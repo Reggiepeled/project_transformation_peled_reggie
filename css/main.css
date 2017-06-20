@@ -224,6 +224,7 @@ footer {
     width: 100%;
     font-family: 'Abel', sans-serif;
     min-height: 120px;
+    max-height: 200px;
 }
 
 footer p {
