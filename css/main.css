@@ -254,3 +254,9 @@ footer p {
     text-align: center;
     color: #5e5e5e;
 }
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
+}
