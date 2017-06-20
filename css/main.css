@@ -273,6 +273,10 @@ footer p {
         float: right;
     }
 
+    nav ul {
+        text-align: right;
+    }
+
     nav ul li a {
         line-height: 100px;
     }
