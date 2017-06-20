@@ -68,11 +68,14 @@ header {
     width: 100%;
     max-width: 1000px;
     margin: auto;
-    background: url(../img/img03.png) no-repeat left bottom;
+    background-image: url(../img/img03.png);
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 #banner img {
-    padding-bottom: 5%;
+    padding-bottom: 3%;
 }
 
 /* Logo */
@@ -270,6 +273,10 @@ footer p {
 @media (min-width: 1000px) {
     #logo {
         float: left;
+    }
+
+    #banner img {
+        padding-bottom: 3.5%;
     }
 
     nav {
