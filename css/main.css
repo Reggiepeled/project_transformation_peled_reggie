@@ -23,7 +23,6 @@ h3 {
     margin: 0;
     padding: 0;
     text-transform: uppercase;
-    font-weight: normal;
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
     color: #222222;
@@ -98,11 +97,6 @@ header {
 }
 
 /* Menu */
-nav {
-    margin: 0 auto;
-    padding: 0;
-}
-
 nav ul {
     margin: 0;
     padding: 5% 0 0 0;
