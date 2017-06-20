@@ -262,3 +262,36 @@ footer p {
         width: 15%;
     }
 }
+
+@media (min-width: 1000px) {
+    #logo {
+        float: left;
+    }
+
+    nav {
+        width: 500px;
+        float: right;
+    }
+
+    nav ul li a {
+        line-height: 100px;
+    }
+
+    #page {
+        padding: 5% 2%;
+    }
+
+    main {
+        float: right;
+        max-width: 600px;
+    }
+
+    article .meta {
+        margin-bottom: 4%;
+    }
+
+    aside {
+        float: left;
+        padding: 0;
+    }
+}
