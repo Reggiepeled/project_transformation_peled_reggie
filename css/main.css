@@ -30,15 +30,12 @@ h3 {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 3.4rem;
 }
 
-h2 {
-    font-size: 2.8rem;
-}
-
+h2,
 h3 {
-    font-size: 1.6rem;
+    font-size: 2.4rem;
 }
 
 p,
@@ -85,7 +82,6 @@ header {
 #logo h1 {
     line-height: 120px; /* this stays the same for all screen sizes */
     letter-spacing: -2px;
-    font-size: 3.8rem;
 }
 
 #logo h1 a {
@@ -200,6 +196,10 @@ aside {
     max-width: 270px;
     margin: 0;
     padding: 10% 0 0 0;
+}
+
+aside section h3 {
+    font-size: 1.6rem;
 }
 
 aside section ul {
